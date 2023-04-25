@@ -1,0 +1,45 @@
+---
+title : "%s 00 - TEMPLATE"
+author: %s
+date  : %s
+editor: visual
+---
+
+## Purpose
+
+This script SHORT PURPOSE STATMENT
+
+- Imports - Source data located in /10-data/01-source
+- Exports - Tidied data located at /10-data/02-tidy
+
+## Setup
+
+```{r}
+#| warning: false
+#| message: false
+# ----------------------------------- #
+# Clear working environment  
+# ----------------------------------- #
+rm(list = ls())
+# ----------------------------------- #
+
+# ----------------------------------- #
+# Load required packages
+# ----------------------------------- #
+library()
+# ----------------------------------- #
+
+# ----------------------------------- #
+# Load data
+# ----------------------------------- #
+# d <- read_csv()
+# ----------------------------------- #
+
+# ----------------------------------- #
+# Functions
+# ----------------------------------- #
+# source("../20-scripts/00-functions/...")
+# ----------------------------------- #
+```
+
+## Section 1 - XYZ
