@@ -70,11 +70,7 @@ tidy_project <- function(project_name,
   
   # Create SCRIPTS directories
   dir.create("20-scripts")
-  cat(paste("This directory contains all scripts used in the project.",
-            "* 00-functions ~ contains functions used in tidy or analysis",
-            "* 01-tidy ~ containes scripts used to tidy source data",
-            "* 02-analysis ~ contains scripts used to generate summary statistics and model analysis",
-            sep = "\n"),
+  cat(template-readme_data.txt,
       file = "20-scripts/README.md")
   dir.create("20-scripts/00-functions")
   cat(q_funs, file = "20-scripts/00-functions/00-function_template.qmd")
